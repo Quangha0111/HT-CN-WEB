@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container .row{
+    width: 100%;
+}
+.col-1{
+    width: 25.3%;
+    float: left;
+    padding: 1%;
+}

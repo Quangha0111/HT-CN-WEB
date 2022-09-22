@@ -1,0 +1,110 @@
+
+    
+.container{
+    width: 100%;
+    margin: auto;
+    padding-left: 40%;
+    border: #0989b4 1px solid;
+    
+    
+    
+}
+.border{
+    border: 15px solid;
+    border-color: #65C226 #F7C200 #4493AD #DF127B ;
+    width: 200px;
+    padding: 50px;
+    /* margin: auto; */
+}
+p{
+    text-align: center;
+}
+.border-width{
+    
+    border-width: 5px 10px 15px 20px;
+
+}
+.border-style{
+    
+    border-style: solid dotted groove double;
+    
+}
+.border-radius{
+    border-radius: 0px 30px 70px 20px;
+}
+.adv-hemisphere{
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-radius: 200px 200px 0px 0px;
+    border-color: #65C226;
+    /* -moz-border-radius: 100px 100px 0px 0px;
+    -webkit-border-radius: 100px 100px 0px 0px; */
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.round-rectangle{
+    border: 5px solid;
+    border-radius: 20px;
+    border-color:#F7C200 ;
+    border-width: 5px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.round-rectangle p{
+    text-align: center;
+}
+.violet{
+    border: 1px solid;
+    border-color: violet ;
+    border-width:0px 12px 0px 12px;
+    border-radius: 40px 40px 60px 60px;
+    border-style: double;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.bullet{
+    border: 1px solid ;
+    border-radius: 20px 100px 100px 20px;
+    border-width: 5px;
+    border-color:#4493AD ;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.advanced-leaf{
+    border: 1px solid;
+    border-width: 4px 30px 4px 30px;
+    border-color: #4493AD #4493AD #DF127B  #DF127B;
+    border-radius: 0 120px 0 120px;
+    background-color: #65C226;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    width: 200px;
+    height:40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #0989b4;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
