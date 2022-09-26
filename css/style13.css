@@ -1,0 +1,45 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.container{
+   
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    border: 2px solid lightblue;
+    background-color: rgb(236, 245, 250);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery{
+    border: 2px solid violet;
+    margin: 20px;
+    /* margin-left: 70px; */
+    width: 250px;
+    float: left;
+    padding: 25px;
+    /* transition: transform .2s;  */
+}
+img{
+    width: 100%;
+    height: auto;
+    padding: px;
+    border: 2px solid blue;
+    transition: transform .5s; /* Animation */
+
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.gallery img:hover {
+    transform: scale(1.1);
+    border-color: brown;
+
+}
