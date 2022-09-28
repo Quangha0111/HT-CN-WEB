@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .wrapper {
+      background-color: rgb(226, 133, 133);
+      border: 5px solid white;
+      height: 200px;
+      position: relative;
+    }
+    header {
+      color: aliceblue;
+      font-weight: bolder;
+      font-size: 30px;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 500px;
+      position: absolute;
+      text-align: center;
+    }
+    .menu ul {
+      list-style: none;
+      position: absolute;
+      left: 25%;
+      display: flex;
+      top: 50%;
+    }
+    .menu li {
+      background-color: aquamarine;
+      font-size: 18px;
+      border-radius: 30px;
+      border: solid 3px rgb(176, 50, 103);
+      text-shadow: 2px 2px #d6afaf;
+      padding: 10px;
+      margin-left: 50px;
+      color: chocolate;
+      text-align: center;
+    }
+    .menu a {
+        text-decoration: none;
+    }
+
+    .menu li:hover {
+      background-color: rgb(230, 230, 240);
+      color: #cf3333;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <header><p>Tôi yêu Việt Nam</p></header>
+      <nav class="menu">
+        <ul>
+          <a href="#"><li>Homme</li></a>
+          <a href="#"><li>Product</li></a>
+          <a href="#"><li>About Us</li></a>
+          <a href="#"><li>Contact</li></a>
+        </ul>
+      </nav>
+    </div>
+  </body>
+  <script>
+    var a =document.getElementsByClassName("menu");
+    console.log(a);
+  </script>
+</html>
