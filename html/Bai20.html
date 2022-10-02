@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+    }
+    ul.parent{
+        background-color: blue;
+
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: center;
+    }
+    .parent li{
+        padding: 10px 50px;
+        border: 2px dashed white;
+        border-radius: 0.5rem;
+    }
+    .parent a{
+        color: aliceblue;
+    }
+    
+    .parent li:nth-child(3){
+        position: relative;
+    }
+
+    .parent li:nth-child(3):hover ul.child{
+        /* position: relative; */
+        display: block;
+        transition: all .8s linear;
+    }
+
+    .parent a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    ul.child{
+        list-style: none;
+        position: absolute;
+        display: none;
+        background-color: burlywood;
+        top: 0%;
+        left: 100%;
+    }
+    .child li{
+        padding: 10px 15px!important;
+    }
+    .child li:hover,.parent li:hover {
+        background-color: aquamarine;
+    }
+
+</style>
+<body>
+    <nav>
+        <ul class="parent">
+            <li><a href="">Home</a></li>
+            <li><a href="">Introduction </a></li>
+            <li><a href="">Poftfolio</a>
+                <ul class="child">
+                    <li><a href="">Pro</a></li>
+                    <li><a href="">Web</a></li>
+                    <li><a href="">Illustration</a></li>
+                </ul>
+            </li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
